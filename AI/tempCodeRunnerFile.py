@@ -1,0 +1,5 @@
+mydata = sd.rec(int(samplerate * duration), samplerate=samplerate, channels=1, blocking=True)
+    sd.wait()
+    print(mydata.shape)
+    print("end")
+    sf.write(filename, mydata, samplerate)

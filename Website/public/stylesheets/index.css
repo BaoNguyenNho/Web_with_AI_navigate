@@ -1,0 +1,97 @@
+body,html{
+   width: 100%;
+   height: 100%;
+}
+:root{
+    --one: blue;
+    --two:red;
+    --three: purple;
+    --four: yellow;
+    --five: orange;
+}
+.container-fluid{
+    padding: 0;
+}
+.navbar-brand{
+    padding-left: 12px;
+}
+.Main{
+    /* position: absolute; */
+    right: 0;
+    margin-top: 20px;
+}
+.Record_tool{
+    margin-right: 0px;
+}
+.recording_button{
+    margin: 30px;
+}
+.recording{
+    
+    width: 200px !important;
+	height: 200px !important;
+}
+.icon{
+    font-size: 100px;
+    height: 29%;
+    width: 60% !important;
+}
+.table {
+    /* --mdb-table-striped-color:red; */
+    --mdb-table-striped-bg: rgb(242, 245, 253);
+    --mdb-table-hover-bg: rgb(190, 210, 255);
+  }
+#result{
+    text-align: center;
+}
+/* .speech_to_text:after{
+    content: " ";
+  position: relative;
+  right: -80%;
+  top: -180px;
+  border-top: none;
+  border-right: 15px solid transparent;
+  border-left: 15px solid transparent;
+  border-bottom: 15px solid #ffffff;
+  box-shadow: 10px;
+} */
+.Record_tool{
+    background-color: transparent !important;
+}
+
+.bg-secondary{
+    background-color: transparent !important;
+}
+.History_box .card-body{
+    height: 500px;
+    width: 600px;
+    /* overflow-y: scroll; */
+}
+.History_box table thead{
+    /* position: sticky; */
+}
+.History_box table tbody{ 
+    height: 120px !important;
+    width:100%;
+    overflow-y: auto;
+    overflow-x: auto;
+    /* position: absolute; */
+    /* width: fit-content; */
+    right:5px !important;
+    left: 15px !important;
+    /* left: 20%;
+    right: 20%; */
+    /* overflow-x: scroll; */
+}
+/* thead,tbody,tr,td,th{
+    display:block;
+  } */
+.table-fixed thead, .table-fixed tbody, .table-fixed tr, .table-fixed td, .table-fixed th {
+    /* display: block; */
+}
+.History_box table tbody tr{
+    width: fit-content;
+    display: table-row;
+    /* display: inline-block;
+    float: right; */
+}
